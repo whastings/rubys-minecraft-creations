@@ -40,9 +40,12 @@ p {
 }
 
 .full-size-photo {
+  display: flex;
+  justify-content: center;
   min-height: 0;
 }
 
 .full-size-photo img {
   max-height: 100%;
+  width: auto;
 }
