@@ -1,0 +1,36 @@
+body {
+  background-color: white;
+}
+
+header {
+  color: indigo;
+  font-family: 'VT323', monospace;
+  font-size: 100px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+.box {
+  border-width: 6px;
+  border-color: indigo;
+  border-style: dashed;
+  padding: 3px;
+  width: 30%;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  font-family: 'VT323', monospace;
+  font-size: 40px;
+}
+
+.a-creation {
+  background-color: aquamarine;
+}
