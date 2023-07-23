@@ -34,4 +34,15 @@ p {
 
 .a-creation {
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  max-height: 100dvh;
+}
+
+.full-size-photo {
+  min-height: 0;
+}
+
+.full-size-photo img {
+  max-height: 100%;
 }
